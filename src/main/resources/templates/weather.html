@@ -1,0 +1,31 @@
+<script>
+  $(document).ready(function(){
+    $('#w_btn').click(function(){
+      $('#weather_form').attr(
+              {
+                'action':'[[@{/weatherimpl}]]',
+                'method':'post'
+              }
+      );
+      $('#weather_form').submit();
+    });
+  });
+</script>
+
+
+<div class="container">
+  <div class="col-sm-5">
+    <h2>Weather Code</h2>
+    <form id="weather_form">
+
+      <div class="form-group">
+        <label for="wcode">Weather Code:</label>
+        <input type="text" class="form-control" id="wcode" placeholder="지역코드" name="loc">
+        <button id="w_btn" class="btn btn-default">조회</button>
+      </div>
+    </form>
+      <textarea class="form-control" cols="100" rows="20" id="comment"
+      th:text = "${result}">
+      </textarea>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shop.mapper.ShopMapper">
+
+    <select id="select" parameterType="String" resultType="ShopDTO">
+        SELECT * FROM shop WHERE id=#{id}
+    </select>
+    <select id="selectall" resultType="ShopDTO">
+        SELECT * FROM shop
+    </select>
+    <insert id="insert" parameterType="ShopDTO">
+        INSERT INTO shop VALUES (#{id},#{name},#{location},#{tel},#{imgname},#{lat},#{lng},#{sido_code})
+    </insert>
+    <update id="update" parameterType="ShopDTO">
+        UPDATE shop SET name=#{name},location=#{location},tel=#{tel},imgname=#{imgname},lat=#{lat},lng=#{lng},sido_code=#{sido_code} WHERE id=#{id}
+    </update>
+    <delete id="delete" parameterType="String">
+        DELETE FROM shop WHERE id=#{id}
+    </delete>
+</mapper>

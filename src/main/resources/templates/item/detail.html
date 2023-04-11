@@ -1,0 +1,55 @@
+<script>
+    $(document).ready(function(){
+        $('#update_btn').click(function(){
+            $('#update_form').attr(
+                {
+                    'enctype':'multipart/form-data',
+                    'action':'[[@{/item/updateimpl}]]',
+                    'method':'post'
+                }
+            );
+            $('#update_form').submit();
+        });
+        $('#delete_btn').click(function(){
+            var c = confirm('삭제 하시겠습니까?');
+            if(c == true){
+                var id = $('#id').val();
+                location.href='/item/deleteimpl?id='+id;
+            }
+        });
+    });
+    </script>
+
+
+<div class="container">
+    <div class="col-sm-5">
+        <h2>Item Detail</h2>
+        <form id="update_form">
+            <div class="form-group">
+                <label for="id">ID:</label>
+                <input type="text" class="form-control" id="id" th:value="${ditem.id}" name="id" readonly>
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" th:value="${ditem.name}" name="name">
+            </div>
+            <div class="form-group">
+                <label for="price">Price:</label>
+                <input type="number" class="form-control" id="price" th:value="${ditem.price}" name="price">
+            </div>
+            <div class="form-group">
+                <label for="before_img">Before IMG:</label>
+                <img class="item_img" th:src="@{|/img/${ditem.imgname}|}">
+                <input id="before_img" type="hidden" name="imgname"
+                       th:value="${ditem.imgname}">
+            </div>
+            <div class="form-group">
+                <label for="img">NEW IMG:</label>
+                <input type="file" class="form-control" id="img"
+                       placeholder="Enter Img" name="img">
+            </div>
+        </form>
+        <button class="btn btn-default" id="update_btn">UPDATE</button>
+        <button class="btn btn-default" id="delete_btn">DELETE</button>
+    </div>
+</div>
