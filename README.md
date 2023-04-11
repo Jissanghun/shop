@@ -4,4 +4,4 @@
 <div align=center>
 	<h3>🦴 Tech Stack 🦴</h3>
 	<p>🙆 Platforms & Languages 🙆</p>
-https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>
+https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<black>
