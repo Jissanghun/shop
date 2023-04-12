@@ -4,13 +4,14 @@
 <div align=center>
 	<h3>** 🦴 Tech Stack 🦴 **</h3>
 	<p> ** 🙆 Platforms & Languages 🙆 ** </p>
-https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<black>
+<img src="https://img.shields.io/badge/MySQL-3776AB?style=for-the-badge&logo=MySQL&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 	
 # SpringBoot-Project-
 스프링 부트 + 
 	
 
-<img src="https://img.shields.io/badge/#4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/#4479A1?style=for-the-badge&logo=&logoColor=white">
 
 
 ## 🖥️ 프로젝트 소개f
