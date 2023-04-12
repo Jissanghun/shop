@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/MySQL-3776AB?style=for-the-badge&logo=MySQL&logoColor=white">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 <img src="https://img.shields.io/badge/springboot-3776AB?style=for-the-badge&logo=springboot&logoColor=white">
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 	
 # SpringBoot-Project-
 스프링 부트 + 
