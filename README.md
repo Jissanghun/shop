@@ -11,7 +11,6 @@
 스프링 부트 + 
 	
 
-<img src="https://img.shields.io/badge/#4479A1?style=for-the-badge&logo=&logoColor=white">
 
 
 ## 🖥️ 프로젝트 소개f
