@@ -16,3 +16,8 @@ https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<black>
 
 ## 🕰️ 개발 기간
 ** * 23.04.12일 - 22.06.??일 **
+	
+### ⚙️ 개발 환경
+- `Java 11`
+	
+## 📌 주요 기능
