@@ -7,7 +7,7 @@
 https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<black>
 	
 # SpringBoot-Project-
-스프링 부트 + JSP 파싱_영화 예매 사이트
+스프링 부트 + 
 
 
 ## 🖥️ 프로젝트 소개f
