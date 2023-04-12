@@ -1,8 +1,10 @@
 <div align=center>
 	<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=McDonald%20Github!&fontSize=90" />	
 </div>
- **</h3>	### 🦴 개발 환경 🦴 **</h3>
 
+<div
+ **</h3>	### 🦴 개발 환경 🦴 **</h3>
+</div>
 <div align=center>
 
 	
